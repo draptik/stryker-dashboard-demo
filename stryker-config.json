@@ -1,0 +1,17 @@
+{
+  "stryker-config": {
+    "project-info": {
+      "name": "",
+      "module": "",
+      "version": ""
+    },
+    "mutation-level": "Standard",
+    "mutate": [
+      "**/*"
+    ],
+    "reporters": [
+      "dots",
+      "dashboard"
+    ]
+  }
+}
