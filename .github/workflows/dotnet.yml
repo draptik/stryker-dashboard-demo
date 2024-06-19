@@ -17,7 +17,7 @@ jobs:
       uses: actions/setup-dotnet@v4
       with:
         dotnet-version: 8.0.x
-    - name: Restore tool dependencies (installs stryper)
+    - name: Restore tool dependencies (installs stryker)
       run: dotnet tool restore
     - name: Restore dependencies
       run: dotnet restore
